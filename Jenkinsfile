@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'YOUR_DOCKERHUB_USERNAME/cicd-demo'
+        IMAGE_NAME = 'shreyascoolguy/cicd-demo'
     }
 
     stages {
